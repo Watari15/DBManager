@@ -181,7 +181,7 @@ def generate_drawio_xml():
             pk_str = " 🔑" if pk else ""
             nn_str = " NN" if notnull else ""
             cells.append(
-                f'<mxCell id="{cell_id}" value="{cname}{pk_str} [{ctype}{nn_str}]" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;fontColor=#c8d8ff;strokeColor=#1a1a3a;" vertex="1" parent="{table_ids[t]}"><mxGeometry y="{30 + cid * 24}" width="220" height="24" as="geometry"/></mxCell>'
+                f'<mxCell id="{cell_id}" value="{cname}{pk_str} [{ctype}{nn_str}]" style="shape=tableRow;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;fontColor=#c8d8ff;strokeColor=#1a1a3a;" vertex="1" parent="{table_ids[t]}"><mxGeometry y="{30 + cid * 24}" width="220" height="24" as="geometry"/></mxCell>'
             )
             cell_id += 1
         x += spacing_x
