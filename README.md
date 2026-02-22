@@ -11,9 +11,9 @@
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║  ⬡ SQLRIFT  ◈ DATABASE EDITOR  ◇ SQL GENERATOR  ◆ UML  ║
+║ ⬡ SQLRIFT  ◈ DATABASE EDITOR  ◇ SQL GENERATOR ◆ UML  ║
 ╠══════════════════════════════════════════════════════╣
-║  ● mydb.db          ✓ Table created                 ║
+║  ● mydb.db          ✓ Table created                  ║
 ╚══════════════════════════════════════════════════════╝
 ```
 
