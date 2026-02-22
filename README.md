@@ -1,6 +1,6 @@
 # ⬡ SQLRIFT — Database Manager
 
-> **Modern SQLite GUI** — glitch/liminal RGB palette, terminal vibes, zero cloud dependency.
+> **Modern SQLite GUI** — terminal vibes, zero cloud dependency.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-00f5ff?style=flat-square&logo=python&logoColor=white&labelColor=0a0a0f)
 ![CustomTkinter](https://img.shields.io/badge/CustomTkinter-5.x-ff00aa?style=flat-square&labelColor=0a0a0f)
@@ -58,13 +58,13 @@ SQLRIFT is a **100% local** SQLite database manager, built with a futuristic int
 ```bash
 # 1. Clone the repo
 git clone https://github.com/Watari15/DBManager/
-cd sqlrift
+cd DBManager
 
 # 2. Install dependencies
-pip install customtkinter
+pip3 install customtkinter
 
 # 3. Run the app
-python db_manager.py
+python main.py
 ```
 
 **Requirements:** Python 3.10+, tkinter (bundled with Python on Windows/macOS — on Linux: `sudo apt install python3-tk`)
