@@ -19,7 +19,7 @@
 
 ## Overview
 
-SQLRIFT is a **100% local** SQLite database manager, built with a **glitch / liminal RGB** aesthetic: near-black background, neon accents — cyan `#00f5ff`, magenta `#ff00aa`, green `#00ff88` — and `Courier New` monospace typography blending 90s terminal energy with a futuristic interface.
+SQLRIFT is a **100% local** SQLite database manager, built with a futuristic interface.
 
 
 ---
