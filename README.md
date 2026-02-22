@@ -57,7 +57,7 @@ SQLRIFT is a **100% local** SQLite database manager, built with a futuristic int
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/sqlrift.git
+git clone https://github.com/Watari15/DBManager/
 cd sqlrift
 
 # 2. Install dependencies
