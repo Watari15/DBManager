@@ -64,7 +64,7 @@ cd DBManager
 pip3 install customtkinter
 
 # 3. Run the app
-python main.py
+python3 main.py
 ```
 
 **Requirements:** Python 3.10+, tkinter (bundled with Python on Windows/macOS — on Linux: `sudo apt install python3-tk`)
