@@ -72,43 +72,6 @@ python db_manager.py
 
 ---
 
-## Project Structure
-
-```
-sqlrift/
-│
-├── db_manager.py           # Final complete version (v1.0)
-│
-├── versions/               # Incremental development history
-│   ├── v1_skeleton.py      # Main window + color palette
-│   ├── v2_navigation.py    # Tab bar + status bar
-│   ├── v3_database_core.py # SQLite connection + table listing
-│   ├── v4_table_editor.py  # CREATE/DROP + Treeview
-│   ├── v5_insert_anim.py   # INSERT rows + GlitchLabel thread
-│   ├── v6_sql_generator.py # Full SQL tab
-│   └── v7_final.py         # UML/Drawio tab + final release
-│
-└── README.md
-```
-
----
-
-## Version History
-
-Each version is a standalone, runnable file.
-
-| Version | File | What's added |
-|---------|------|--------------|
-| v0.1 | `v1_skeleton.py` | Main window + COLORS palette |
-| v0.2 | `v2_navigation.py` | Browser-style `TabBar` + `StatusBar` + placeholders |
-| v0.3 | `v3_database_core.py` | SQLite connection, `get_tables()`, open/create DB |
-| v0.4 | `v4_table_editor.py` | `CreateTableDialog`, `drop_table()`, Treeview with rows |
-| v0.5 | `v5_insert_anim.py` | `InsertRowDialog`, `insert_row()`, `GlitchLabel` thread |
-| v0.6 | `v6_sql_generator.py` | Full SQL tab: editor + `execute_sql()` + schema gen + export |
-| v1.0 | `v7_final.py` | UML/Drawio tab + `generate_drawio_xml()` + `.drawio` export |
-
----
-
 ## Color Palette
 
 | Role | Hex | Preview |
